@@ -34,4 +34,14 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="unt" value="import 'package:test/test.dart';&#10;&#10;void main() {&#10;  group('Unit test', () {&#10;    setUpAll(() {});&#10;&#10;    tearDownAll(() {});&#10;&#10;    setUp(() {});&#10;&#10;    tearDown(() {});&#10;&#10;    test('output', () {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;&#10;      expect(1, 0);&#10;    });&#10;  });&#10;}" description="Unit test" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="tcase" value="    test('output', () {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;&#10;      expect(1, 0);&#10;    });" description="test case" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
