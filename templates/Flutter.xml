@@ -1,0 +1,20 @@
+<templateSet group="Flutter">
+  <template name="provl" value="Provider.of&lt;$NAME$&gt;(context);" description="Provider.of with listen" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="provn" value="Provider.of&lt;$NAME$&gt;(context, listen: false);" description="Provider.of no listen" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="cnp" value="ChangeNotifierProvider&lt;$NAME$&gt;(create: (_) =&gt; $NAME$(), child: $END$))" description="ChangeNotifierProvider" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>
