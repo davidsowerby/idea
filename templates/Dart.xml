@@ -50,4 +50,19 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="logd" value="getLogger(this.runtimeType).d(&quot;$END$&quot;);" description="logger debug" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="logw" value="getLogger(this.runtimeType).w(&quot;$END$&quot;);" description="Logger warning" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="logi" value="getLogger(this.runtimeType).i(&quot;$END$&quot;);" description="Logger info" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
