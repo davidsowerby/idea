@@ -1,6 +1,7 @@
 <templateSet group="Flutter">
-  <template name="provl" value="Provider.of&lt;$NAME$&gt;(context);" description="Provider.of with listen" toReformat="false" toShortenFQNames="true">
+  <template name="provl" value="final $NAME$ $LNAME$ = Provider.of&lt;$NAME$&gt;(context);" description="Provider.of with listen" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LNAME" expression="decapitalize(NAME)" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="DART" value="true" />
     </context>
