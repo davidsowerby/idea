@@ -44,8 +44,23 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="jser" value="@JsonSerializable(nullable: true, explicitToJson: true)&#10;class $NAME$  {&#10;&#10;  $NAME$() : super();&#10;&#10;  factory $NAME$.fromJson(Map&lt;String, dynamic&gt; json) =&gt;&#10;      _$$$NAME$FromJson(json);&#10;&#10;  Map&lt;String, dynamic&gt; toJson() =&gt; _$$$NAME$ToJson(this);&#10;&#10;}&#10;" description="JSON serialisable" toReformat="true" toShortenFQNames="true">
+  <template name="jser" value="@JsonSerializable(nullable: true, explicitToJson: true)&#10;class $NAME$  {&#10;&#10;  $NAME$() ;&#10;&#10;  factory $NAME$.fromJson(Map&lt;String, dynamic&gt; json) =&gt;&#10;      _$$$NAME$FromJson(json);&#10;&#10;  Map&lt;String, dynamic&gt; toJson() =&gt; _$$$NAME$ToJson(this);&#10;}" description="JSON serialisable" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="logd" value="getLogger(this.runtimeType).d(&quot;$END$&quot;);" description="logger debug" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="logw" value="getLogger(this.runtimeType).w(&quot;$END$&quot;);" description="Logger warning" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="logi" value="getLogger(this.runtimeType).i(&quot;$END$&quot;);" description="Logger info" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
