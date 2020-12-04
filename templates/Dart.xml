@@ -50,17 +50,32 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="logd" value="getLogger(this.runtimeType).d(&quot;$END$&quot;);" description="logger debug" toReformat="false" toShortenFQNames="true">
+  <template name="logd" value="logType(this.runtimeType).d(&quot;$END$&quot;);" description="logger debug" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="logw" value="getLogger(this.runtimeType).w(&quot;$END$&quot;);" description="Logger warning" toReformat="false" toShortenFQNames="true">
+  <template name="logw" value="logType(this.runtimeType).w(&quot;$END$&quot;);" description="Logger warning" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="logi" value="getLogger(this.runtimeType).i(&quot;$END$&quot;);" description="Logger info" toReformat="false" toShortenFQNames="true">
+  <template name="logi" value="logType(this.runtimeType).i(&quot;$END$&quot;);" description="Logger info" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="loge" value="logType(this.runtimeType).e(&quot;$END$&quot;);" description="Logs an error" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="logne" value="logName('$END$').d('');" description="logger (name) debug" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="logni" value="logName('$END$').i('');" description="Logger (name) info" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
