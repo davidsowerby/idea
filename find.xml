@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.dart" />
+    <option name="FILE_MASK" value="*_test.dart" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -13,5 +13,6 @@
     <mask>*</mask>
     <mask>*.md</mask>
     <mask>*.dart</mask>
+    <mask>*_test.dart</mask>
   </component>
 </application>
