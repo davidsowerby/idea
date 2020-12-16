@@ -80,4 +80,9 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="wtks" value="import 'package:flutter/widgets.dart';&#10;import 'package:flutter_test/flutter_test.dart';&#10;import 'package:precept_client/precept/library/partLibrary.dart';&#10;import 'package:precept_script/script/script.dart';&#10;import 'package:precept_script/script/part/pString.dart';&#10;&#10;/// See [developer guide]()&#10;void main() {&#10;  group('??? (kitchen-sink-??)', () {&#10;    setUpAll(() {});&#10;&#10;    tearDownAll(() {});&#10;&#10;    setUp(() {});&#10;&#10;    tearDown(() {});&#10;&#10;    testWidgets('??? ', (WidgetTester tester) async {&#10;      // given&#10;      partLibrary.init();&#10;      final script = PScript(isStatic: IsStatic.yes);&#10;      script.init();&#10;      // when&#10;      final testTree = Directionality();&#10;      await tester.pumpWidget(testTree);&#10;      final widgetList = tester.allWidgets.toList();&#10;      // then&#10;&#10;      expect(widgetList, isNotEmpty);&#10;    });&#10;  });&#10;}" description="Widgt test for Kitchen Sink" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
