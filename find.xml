@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'precept_jotting'" />
-    <option name="defaultScopeName" value="Project 'precept_jotting'" />
-    <option name="SEARCH_SCOPE" value="Project 'precept_jotting'" />
-    <option name="FILE_MASK" value="*.md" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.dart" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -12,7 +12,7 @@
     <mask>*.java</mask>
     <mask>*</mask>
     <mask>*_test.dart</mask>
-    <mask>*.dart</mask>
     <mask>*.md</mask>
+    <mask>*.dart</mask>
   </component>
 </application>
