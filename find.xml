@@ -11,8 +11,8 @@
     <mask>*.properties</mask>
     <mask>*.java</mask>
     <mask>*_test.dart</mask>
-    <mask>*</mask>
     <mask>*.md</mask>
+    <mask>*</mask>
     <mask>*.dart</mask>
   </component>
 </application>
