@@ -65,7 +65,7 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="loge" value="String msg='$MSG$';&#10;logType(this.runtimeType).e(msg);&#10;throw PreceptException(msg);" description="Logs an error" toReformat="false" toShortenFQNames="true">
+  <template name="loge" value="String msg='$MSG$';&#10;logType(this.runtimeType).e(msg);&#10;throw TakkanException(msg);" description="Logs an error" toReformat="false" toShortenFQNames="true">
     <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
