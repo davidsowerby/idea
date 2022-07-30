@@ -86,4 +86,10 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="lstg" value="final List&lt;String&gt; $NAME$=List.empty(growable: true);" description="List, empty, growable" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
