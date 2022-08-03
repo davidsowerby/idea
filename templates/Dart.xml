@@ -50,22 +50,22 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="logd" value="logType(this.runtimeType).d(&quot;$END$&quot;);" description="logger debug" toReformat="false" toShortenFQNames="true">
+  <template name="logd" value="logType(runtimeType).d(&quot;$END$&quot;);" description="logger debug" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="logw" value="logType(this.runtimeType).w(&quot;$END$&quot;);" description="Logger warning" toReformat="false" toShortenFQNames="true">
+  <template name="logw" value="logType(runtimeType).w(&quot;$END$&quot;);" description="Logger warning" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="logi" value="logType(this.runtimeType).i(&quot;$END$&quot;);" description="Logger info" toReformat="false" toShortenFQNames="true">
+  <template name="logi" value="logType(runtimeType).i(&quot;$END$&quot;);" description="Logger info" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="loge" value="final String msg='$MSG$';&#10;logType(this.runtimeType).e(msg);&#10;throw TakkanException(msg);" description="Logs an error" toReformat="false" toShortenFQNames="true">
+  <template name="loge" value="final String msg='$MSG$';&#10;logType(runtimeType).e(msg);&#10;throw TakkanException(msg);" description="Logs an error" toReformat="false" toShortenFQNames="true">
     <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
@@ -82,6 +82,12 @@
     </context>
   </template>
   <template name="wtks" value="import 'package:flutter/material.dart';&#10;import 'package:flutter/widgets.dart';&#10;import 'package:flutter_test/flutter_test.dart';&#10;import 'package:precept_client/precept/builder/commonBuilder.dart';&#10;import 'package:precept_client/precept/library/partLibrary.dart';&#10;import 'package:precept_script/script/script.dart';&#10;import 'package:precept_script/script/part/pString.dart';&#10;&#10;import '../../helper/widgetTestTree.dart';&#10;&#10;/// See [developer guide]()&#10;void main() {&#10;  group('??? (kitchen-sink-??)', () {&#10;    WidgetTestTree testTree;&#10;    setUpAll(() {});&#10;&#10;    tearDownAll(() {});&#10;&#10;    setUp(() {});&#10;&#10;    tearDown(() {});&#10;&#10;    testWidgets('??? ', (WidgetTester tester) async {&#10;      // given&#10;      partLibrary.init();&#10;      final script = PScript(isStatic: IsStatic.yes);&#10;      script.init();&#10;      // when&#10;      final widgetTree = MaterialApp(&#10;          home: PageBuilder().build(&#10;            config: script.components[0].routes[0].page,&#10;          ));&#10;      await tester.pumpWidget(widgetTree);&#10;      testTree = WidgetTestTree(tester.allWidgets.toList());&#10;      // then&#10;&#10;      expect(testTree.pageIndex, 84);&#10;      expect(testTree.pageHasDataSource, isFalse);&#10;      expect(testTree.pageHasDataBinding, isFalse);&#10;      expect(testTree.pageHasEditState, isFalse);&#10;      expect(testTree.elementHasPanelState('Panel 2'), isTrue);&#10;      expect(testTree.elementHasPanelState('Panel 2-1'), isTrue);&#10;&#10;      expect(testTree.elementHasEditState('Panel 2'), isFalse);&#10;      expect(testTree.elementHasDataBinding('Panel 2'), isFalse);&#10;      expect(testTree.elementHasDataSource('Panel 2'), isFalse);&#10;&#10;      expect(testTree.elementHasEditState('Panel 2-1'), isFalse);&#10;      expect(testTree.elementHasDataBinding('Panel 2-1'), isFalse);&#10;      expect(testTree.elementHasDataSource('Panel 2-1'), isFalse);&#10;&#10;      expect(testTree.elementHasEditState('Part 1'), isFalse);&#10;      expect(testTree.elementHasDataBinding('Part 1'), isFalse);&#10;      expect(testTree.elementHasDataSource('Part 1'), isFalse);&#10;&#10;      expect(testTree.elementHasEditState('Part 3'), isFalse);&#10;      expect(testTree.elementHasDataBinding('Part 3'), isFalse);&#10;      expect(testTree.elementHasDataSource('Part 3'), isFalse);&#10;&#10;      expect(testTree.elementHasEditState('Part 2-2'), isFalse);&#10;      expect(testTree.elementHasDataBinding('Part 2-2'), isFalse);&#10;      expect(testTree.elementHasDataSource('Part 2-2'), isFalse);&#10;&#10;&#10;      expect(testTree.elementHasEditState('Part 2-3'), isFalse);&#10;      expect(testTree.elementHasDataBinding('Part 2-1-1'), isFalse);&#10;      expect(testTree.elementHasDataSource('Part 2-1-2'), isFalse);&#10;    });&#10;  });&#10;}" description="Widgt test for Kitchen Sink" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="lstg" value="final List&lt;String&gt; $NAME$=List.empty(growable: true);" description="List, empty, growable" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
     </context>
