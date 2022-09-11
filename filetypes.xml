@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="initInstance_test.dart" type="AUTO_DETECTED" />
       <mapping pattern="app_config_loader" type="AUTO_DETECTED" />
+      <mapping pattern="LICENSE" type="AUTO_DETECTED" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="2021-10-12-validation-schema-generate.md" type="PLAIN_TEXT" />
