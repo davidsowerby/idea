@@ -4,11 +4,13 @@
       <mapping pattern="initInstance_test.dart" type="AUTO_DETECTED" />
       <mapping pattern="app_config_loader" type="AUTO_DETECTED" />
       <mapping pattern="LICENSE" type="AUTO_DETECTED" />
+      <removed_mapping ext="pro" type="DeviceSpecFile" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="2021-10-12-validation-schema-generate.md" type="PLAIN_TEXT" />
       <mapping ext="2021-10-12" type="PLAIN_TEXT" />
       <mapping ext="2021-10-15" type="PLAIN_TEXT" />
+      <mapping ext="pro" type="Shrinker Config File" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="pro" approved="true" type="DeviceSpecFile" />
       <removed_mapping ext="psd" approved="true" type="Image" />
