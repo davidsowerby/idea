@@ -1,19 +1,23 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*" />
+    <option name="FILE_MASK" value="pubspec.yaml" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*_test.dart</mask>
-    <mask>*.md</mask>
     <mask>*.js</mask>
-    <mask>*.dart</mask>
     <mask>*.java</mask>
+    <mask>*.md</mask>
+    <mask>*.dart</mask>
     <mask>*</mask>
+    <mask>pubspec.lock</mask>
+    <mask>pubspec.yaml</mask>
   </component>
 </application>
